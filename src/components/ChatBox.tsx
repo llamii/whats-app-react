@@ -1,4 +1,4 @@
-import { FC, useState, useEffect, useRef } from 'react';
+import { FC, useState, useEffect } from 'react';
 import { Contact } from '../types/contact';
 import sendMessage from '../api/sendMessage';
 import { User } from '../types/user';
