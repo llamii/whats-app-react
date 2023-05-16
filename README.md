@@ -22,4 +22,4 @@ or
 yarn dev
 ```
 
-![preview app]([http://url/to/img.png](https://github.com/ooubree/whats-app-react/blob/main/src/assets/whats-app-react.png))
+![preview app](src/assets/whats-app-react.png)
