@@ -13,3 +13,15 @@ or
 ```bash
 yarn install
 ```
+
+## Start
+
+```bash
+npm run dev
+```
+or
+```bash
+yarn dev
+```
+
+![preview app](src/assets/whats-app-react.png)
