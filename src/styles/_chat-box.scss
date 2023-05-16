@@ -1,0 +1,37 @@
+.chat-box {
+	display: flex;
+	flex-direction: column;
+	max-height: 100%;
+	overflow-y: auto;
+	height: 500px;
+	max-height: 500px;
+}
+
+.message {
+	display: flex;
+	align-items: flex-start;
+	margin: 4px;
+	font-size: 16px;
+}
+
+.message.sent {
+	justify-content: flex-end;
+}
+
+.message.received {
+	justify-content: flex-start;
+}
+
+.message .text {
+	padding: 8px 12px;
+	background-color: $green;
+}
+
+.message.sent .text {
+	color: $white;
+}
+
+.message.received .text {
+	background-color: $green;
+	color: $white;
+}

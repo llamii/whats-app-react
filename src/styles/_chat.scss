@@ -1,0 +1,105 @@
+.chat {
+
+	width: 80%;
+	height: 80%;
+	min-height: 500px;
+	display: flex;
+	border: 1px solid $light-green;
+	-webkit-box-shadow: 0 0 40px rgba(0, 0, 0, 0.254);
+	box-shadow: 0 0 40px rgba(0, 0, 0, 0.254);
+
+	&__left {
+		border-right: 1px solid $light-green;
+		background-color: $green;
+		flex-basis: 30%;
+	}
+
+	&__right {
+
+		display: flex;
+		flex-direction: column;
+
+
+		background-color: $green;
+		opacity: 0.8;
+		background-image: radial-gradient($dark-green 0.9px, $dark-green 0.9px);
+		background-size: 18px 18px;
+
+		flex-grow: 1;
+
+		&--header {
+			display: flex;
+			align-items: center;
+			justify-content: flex-end;
+
+			height: 64px;
+			background-color: $green;
+
+			font-size: 32px;
+			text-align: right;
+
+			span {
+				padding-right: 32px;
+			}
+
+			&__telephone {
+				font-size: 12px;
+				color: grey;
+			}
+		}
+
+		&--main {
+
+			height: 100%;
+			overflow: auto;
+			background-color: $dark-green;
+
+			font-size: 32px;
+			text-align: right;
+		}
+
+		&--footer {
+			display: flex;
+			align-items: center;
+			justify-content: flex-start;
+
+
+
+			font-size: 32px;
+			text-align: left;
+
+			textarea {
+				width: 100%;
+				height: 32px;
+				resize: none;
+				background-color: $green;
+				padding-left: 16px;
+				padding-right: 16px;
+				border: none;
+				overflow: auto;
+				outline: none;
+
+				-webkit-box-shadow: none;
+				-moz-box-shadow: none;
+				box-shadow: none;
+
+				/*remove the resize handle on the bottom right*/
+				background-color: $green;
+				text-align: start;
+				justify-content: start;
+
+				color: $white;
+				font-size: 24px;
+			}
+
+			button {
+				height: 100%;
+				background: none;
+				color: inherit;
+				font-size: 12px;
+				border: 1px solid $green;
+				cursor: pointer;
+			}
+		}
+	}
+}

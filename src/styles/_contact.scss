@@ -1,0 +1,42 @@
+.contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	border-bottom: 1px solid $light-green;
+
+	height: 64px;
+	padding-left: 8px;
+	cursor: pointer;
+
+	&__name {
+		font-weight: 400;
+		font-size: 24px;
+	}
+
+	&__message {
+		font-weight: 100;
+	}
+
+	// &:hover {
+	// 	background-color: #1f273a;
+	// }
+
+
+}
+
+.new {
+	background-color: $dark-green;
+	text-align: center;
+
+	span {
+		font-size: 18px;
+	}
+
+	&:active {
+		background-color: $green;
+	}
+}
+
+.current {
+	background-color: $light-green;
+}
