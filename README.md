@@ -11,3 +11,13 @@ or
 ```bash
 yarn install
 ```
+
+## Start
+
+```bash
+npm run dev
+```
+or
+```bash
+yarn dev
+```
