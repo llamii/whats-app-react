@@ -7,7 +7,10 @@ A small whatsapp application made with react
 ```bash
 npm install
 ```
+
 or
+
 ```bash
 yarn install
 ```
+
